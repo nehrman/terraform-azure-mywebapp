@@ -5,7 +5,7 @@ data "terraform_remote_state" "rg" {
     organization = "Hashicorp-neh-Demo"
 
     workspaces = {
-      name = "arm-resourcegroup-${var.az_env}"
+      name = "azure-demo-resourcegroup-${var.az_env}"
     }  
   }
 }
@@ -17,7 +17,7 @@ data "terraform_remote_state" "lb" {
     organization = "Hashicorp-neh-Demo"
 
     workspaces = {
-      name = "arm-loadbalancer-${var.az_env}"
+      name = "azure-demo-loadbalancers-${var.az_env}"
     }
   }
 }
