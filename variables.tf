@@ -25,5 +25,5 @@ variable az_instance_type {
 
 variable az_tags {
   description = "Define Tags used by resources"
-  type = "map"
+  type = map
 }
