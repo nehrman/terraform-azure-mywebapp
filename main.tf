@@ -1,5 +1,4 @@
 # Use module "Instance" with appropriate variables to deploy Azure Virtual Machines
-#For Demo Purpose
 
 module "instance" {
   source              = "app.terraform.io/Hashicorp-neh-Demo/instance/azurerm"
