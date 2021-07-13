@@ -6,7 +6,7 @@ data "terraform_remote_state" "rg" {
 
     workspaces = {
       name = "azure-demo-resourcegroup-${var.az_env}"
-    }  
+    }
   }
 }
 
