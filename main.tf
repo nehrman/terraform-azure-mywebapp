@@ -2,7 +2,7 @@
 
 module "instance" {
   source              = "app.terraform.io/Nehrman-Demo/instance/azurerm"
-  version             = "2.0.1"
+  version             = "3.0.0"
   tf_az_name          = var.az_name
   tf_az_env           = var.az_env
   tf_az_location      = var.az_location
