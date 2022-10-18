@@ -1,7 +1,7 @@
 # Use module "Instance" with appropriate variables to deploy Azure Virtual Machines
 
 module "instance" {
-  source              = "app.terraform.io/Hashicorp-neh-Demo/instance/azurerm"
+  source              = "app.terraform.io/Nehrman-Demo/instance/azurerm"
   version             = "2.0.1"
   tf_az_name          = var.az_name
   tf_az_env           = var.az_env
